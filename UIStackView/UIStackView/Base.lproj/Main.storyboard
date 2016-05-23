@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Dez-zP-Foq">
+                                <rect key="frame" x="20" y="40" width="374" height="547"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Do you like me?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Or4-h6-WHS">
+                                        <rect key="frame" x="127" y="0.0" width="121" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Acme_Monogram_Colour" translatesAutoresizingMaskIntoConstraints="NO" id="gPM-an-ghf">
+                                        <rect key="frame" x="33" y="48" width="308" height="427"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6cd-Bf-NPK">
+                                        <rect key="frame" x="109" y="494" width="157" height="53"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpO-xl-cU8">
+                                                <rect key="frame" x="0.0" y="12" width="60" height="30"/>
+                                                <state key="normal" title="Add Star"/>
+                                                <connections>
+                                                    <action selector="addStar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H76-v0-Rzm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYG-He-DVW">
+                                                <rect key="frame" x="70" y="12" width="87" height="30"/>
+                                                <state key="normal" title="Remove Star">
+                                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="removeStar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kz8-TS-Qgh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="g5Y-5K-fg3">
+                                <rect key="frame" x="20" y="587" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Gp4-En-d8l"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dez-zP-Foq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0JR-Gv-Ifz"/>
+                            <constraint firstItem="g5Y-5K-fg3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7oE-LC-D1v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dez-zP-Foq" secondAttribute="trailing" id="8xI-up-ril"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g5Y-5K-fg3" secondAttribute="trailing" id="SN2-lB-mad"/>
+                            <constraint firstItem="g5Y-5K-fg3" firstAttribute="top" secondItem="Dez-zP-Foq" secondAttribute="bottom" id="Thi-Jo-wNv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g5Y-5K-fg3" secondAttribute="bottom" constant="49" id="hvv-de-jiD"/>
+                            <constraint firstItem="Dez-zP-Foq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="o8i-H8-slp"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="starStackView" destination="g5Y-5K-fg3" id="Oem-SW-YXj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="231" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Acme_Monogram_Colour" width="308" height="321"/>
+    </resources>
+</document>

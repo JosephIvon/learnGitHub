@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  runtimeDemo
+//
+//  Created by fanwenbo on 16/5/20.
+//  Copyright © 2016年 fanwenbo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define  kImageUrl  @"http://b.zol-img.com.cn/sjbizhi/images/5/320x510/1371110332876.jpg"
+#define  FWBAppImageFile(url)  [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:[url lastPathComponent]]
+
+#define STATUS_BAR_HEIGHT 44.0
+
+#endif /* PrefixHeader_pch */
