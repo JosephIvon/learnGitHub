@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		507434661CDC47FC001C0EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 507434651CDC47FC001C0EAF /* main.m */; };
+		5074346F1CDC47FC001C0EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5074346D1CDC47FC001C0EAF /* Main.storyboard */; };
+		507434711CDC47FC001C0EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507434701CDC47FC001C0EAF /* Assets.xcassets */; };
+		507434741CDC47FC001C0EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507434721CDC47FC001C0EAF /* LaunchScreen.storyboard */; };
+		5074347D1CDC486B001C0EAF /* FWBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074347C1CDC486B001C0EAF /* FWBAppDelegate.m */; };
+		507434801CDC48BD001C0EAF /* FWBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074347F1CDC48BD001C0EAF /* FWBViewController.m */; };
+		507434831CDC494A001C0EAF /* CBAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 507434821CDC494A001C0EAF /* CBAutoScrollLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		507434611CDC47FC001C0EAF /* FWBAutoScrollLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWBAutoScrollLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		507434651CDC47FC001C0EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5074346E1CDC47FC001C0EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		507434701CDC47FC001C0EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		507434731CDC47FC001C0EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		507434751CDC47FC001C0EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5074347B1CDC486B001C0EAF /* FWBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBAppDelegate.h; sourceTree = "<group>"; };
+		5074347C1CDC486B001C0EAF /* FWBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBAppDelegate.m; sourceTree = "<group>"; };
+		5074347E1CDC48BC001C0EAF /* FWBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBViewController.h; sourceTree = "<group>"; };
+		5074347F1CDC48BD001C0EAF /* FWBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBViewController.m; sourceTree = "<group>"; };
+		507434811CDC494A001C0EAF /* CBAutoScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAutoScrollLabel.h; sourceTree = "<group>"; };
+		507434821CDC494A001C0EAF /* CBAutoScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAutoScrollLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5074345E1CDC47FC001C0EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		507434581CDC47FC001C0EAF = {
+			isa = PBXGroup;
+			children = (
+				507434631CDC47FC001C0EAF /* FWBAutoScrollLabel */,
+				507434621CDC47FC001C0EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		507434621CDC47FC001C0EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507434611CDC47FC001C0EAF /* FWBAutoScrollLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507434631CDC47FC001C0EAF /* FWBAutoScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				507434811CDC494A001C0EAF /* CBAutoScrollLabel.h */,
+				507434821CDC494A001C0EAF /* CBAutoScrollLabel.m */,
+				5074347B1CDC486B001C0EAF /* FWBAppDelegate.h */,
+				5074347C1CDC486B001C0EAF /* FWBAppDelegate.m */,
+				5074347E1CDC48BC001C0EAF /* FWBViewController.h */,
+				5074347F1CDC48BD001C0EAF /* FWBViewController.m */,
+				5074346D1CDC47FC001C0EAF /* Main.storyboard */,
+				507434701CDC47FC001C0EAF /* Assets.xcassets */,
+				507434721CDC47FC001C0EAF /* LaunchScreen.storyboard */,
+				507434751CDC47FC001C0EAF /* Info.plist */,
+				507434641CDC47FC001C0EAF /* Supporting Files */,
+			);
+			path = FWBAutoScrollLabel;
+			sourceTree = "<group>";
+		};
+		507434641CDC47FC001C0EAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				507434651CDC47FC001C0EAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		507434601CDC47FC001C0EAF /* FWBAutoScrollLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507434781CDC47FC001C0EAF /* Build configuration list for PBXNativeTarget "FWBAutoScrollLabel" */;
+			buildPhases = (
+				5074345D1CDC47FC001C0EAF /* Sources */,
+				5074345E1CDC47FC001C0EAF /* Frameworks */,
+				5074345F1CDC47FC001C0EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWBAutoScrollLabel;
+			productName = FWBAutoScrollLabel;
+			productReference = 507434611CDC47FC001C0EAF /* FWBAutoScrollLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		507434591CDC47FC001C0EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fanwenbo;
+				TargetAttributes = {
+					507434601CDC47FC001C0EAF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5074345C1CDC47FC001C0EAF /* Build configuration list for PBXProject "FWBAutoScrollLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 507434581CDC47FC001C0EAF;
+			productRefGroup = 507434621CDC47FC001C0EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				507434601CDC47FC001C0EAF /* FWBAutoScrollLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5074345F1CDC47FC001C0EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507434741CDC47FC001C0EAF /* LaunchScreen.storyboard in Resources */,
+				507434711CDC47FC001C0EAF /* Assets.xcassets in Resources */,
+				5074346F1CDC47FC001C0EAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5074345D1CDC47FC001C0EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5074347D1CDC486B001C0EAF /* FWBAppDelegate.m in Sources */,
+				507434801CDC48BD001C0EAF /* FWBViewController.m in Sources */,
+				507434661CDC47FC001C0EAF /* main.m in Sources */,
+				507434831CDC494A001C0EAF /* CBAutoScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5074346D1CDC47FC001C0EAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5074346E1CDC47FC001C0EAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		507434721CDC47FC001C0EAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507434731CDC47FC001C0EAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		507434761CDC47FC001C0EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		507434771CDC47FC001C0EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		507434791CDC47FC001C0EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FWBAutoScrollLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanwenbo.FWBAutoScrollLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5074347A1CDC47FC001C0EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FWBAutoScrollLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanwenbo.FWBAutoScrollLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5074345C1CDC47FC001C0EAF /* Build configuration list for PBXProject "FWBAutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507434761CDC47FC001C0EAF /* Debug */,
+				507434771CDC47FC001C0EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507434781CDC47FC001C0EAF /* Build configuration list for PBXNativeTarget "FWBAutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507434791CDC47FC001C0EAF /* Debug */,
+				5074347A1CDC47FC001C0EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 507434591CDC47FC001C0EAF /* Project object */;
+}

@@ -110,9 +110,6 @@
 				50B4FE891CEECE5B00CCC4B2 /* ViewController.m */,
 				50B4FEA01CEEF9B500CCC4B2 /* PrefixHeader.pch */,
 				50B4FE8B1CEECE5B00CCC4B2 /* Main.storyboard */,
-				50B4FE8E1CEECE5B00CCC4B2 /* Assets.xcassets */,
-				50B4FE901CEECE5B00CCC4B2 /* LaunchScreen.storyboard */,
-				50B4FE931CEECE5B00CCC4B2 /* Info.plist */,
 				50B4FE821CEECE5B00CCC4B2 /* Supporting Files */,
 			);
 			path = runtimeDemo;
@@ -122,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				50B4FE831CEECE5B00CCC4B2 /* main.m */,
+				50B4FE8E1CEECE5B00CCC4B2 /* Assets.xcassets */,
+				50B4FE901CEECE5B00CCC4B2 /* LaunchScreen.storyboard */,
+				50B4FE931CEECE5B00CCC4B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

@@ -45,9 +45,9 @@
 
 //    [self makeModel];
     
-    [self ObjectArchive];
-    
-    [self addNotifications];
+//    [self ObjectArchive];
+//    
+//    [self addNotifications];
     
 }
 

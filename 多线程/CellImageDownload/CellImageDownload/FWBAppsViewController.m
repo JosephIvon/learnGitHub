@@ -71,7 +71,6 @@
             FWBAppsModel * app = [FWBAppsModel appWithDict:subDic];
             [appsArray addObject:app];
         }
-        
         //赋值
         self.apps = appsArray;
     }
@@ -86,7 +85,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
     
     //移除所有下载操作
     [self.queue cancelAllOperations];

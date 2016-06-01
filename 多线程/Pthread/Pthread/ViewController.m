@@ -22,6 +22,19 @@ void *run (void * const t){
     return NULL;
 }
 
+void testPointerSize()
+{
+    void *tret;
+    printf("size of pointer in x86-64：%lu\n",sizeof(tret));
+    //result is 8 in x86-64.
+    //which is 4 in x86-32.
+    
+    printf("size of int in x86-64：%lu\n",sizeof(int));
+    //result is 4 in x86-64.
+    //which is also 4 in x86-32.
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"viewDidLoad----%@",[NSThread currentThread]);

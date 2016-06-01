@@ -12,6 +12,7 @@
  缺点：需要消耗大量的CPU资源
  原理：利用线程同步技术
  */
+
 #import "ViewController.h"
 
 @interface ViewController ()

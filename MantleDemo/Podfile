@@ -1,0 +1,7 @@
+target :'MantleDemo' do
+use_frameworks!
+platform :ios, '8.0'
+
+pod 'Mantle'
+
+end
